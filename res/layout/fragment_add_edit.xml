@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_year"
             android:imeOptions="actionNext"
-            android:inputType="phone" >
+            android:inputType="number" >
         </EditText>
 
         <EditText
@@ -35,47 +35,47 @@
             android:layout_height="wrap_content"
             android:hint="@string/label_dirctor"
             android:imeOptions="actionNext"
-            android:inputType="textEmailAddress" >
+            android:inputType="textEmailAddress|textPersonName" >
         </EditText>
 
         <EditText
-            android:id="@+id/streetEditText"
+            android:id="@+id/typeEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_street"
+            android:hint="@string/hint_type"
             android:imeOptions="actionNext"
-            android:inputType="textPostalAddress|textCapWords" >
+            android:inputType="text" >
         </EditText>
 
         <EditText
-            android:id="@+id/cityEditText"
+            android:id="@+id/countryEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_city"
+            android:hint="@string/hint_country"
             android:imeOptions="actionNext"
-            android:inputType="textPostalAddress|textCapWords" >
+            android:inputType="text" >
         </EditText>
 
         <EditText
-            android:id="@+id/stateEditText"
+            android:id="@+id/lengthEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_state"
+            android:hint="@string/hint_length"
             android:imeOptions="actionNext"
-            android:inputType="textPostalAddress|textCapCharacters" >
-        </EditText>
-
-        <EditText
-            android:id="@+id/zipEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint_zip"
-            android:imeOptions="actionDone"
             android:inputType="number" >
         </EditText>
 
+        <EditText
+            android:id="@+id/leadingEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_leading"
+            android:imeOptions="actionDone"
+            android:inputType="textPersonName" >
+        </EditText>
+
         <Button
-            android:id="@+id/saveContactButton"
+            android:id="@+id/saveMovieButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"

@@ -17,12 +17,12 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
-   <style name="ContactLabelTextView">
+   <style name="MovieLabelTextView">
       <item name="android:layout_width">wrap_content</item>
       <item name="android:layout_height">wrap_content</item>
       <item name="android:layout_gravity">right|center_vertical</item>
    </style>
-   <style name="ContactTextView">
+   <style name="MovieTextView">
       <item name="android:layout_width">wrap_content</item>
       <item name="android:layout_height">wrap_content</item>
       <item name="android:layout_gravity">fill_horizontal</item>

@@ -12,8 +12,8 @@
     tools:context=".MainActivity" >
 
     <fragment
-        android:id="@+id/contactListFragment"
-        android:name="com.deitel.addressbook.ContactListFragment"
+        android:id="@+id/movieListFragment"
+        android:name="com.deitel.moviecollection.MovieListFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
